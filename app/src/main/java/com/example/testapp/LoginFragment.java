@@ -1,6 +1,7 @@
 package com.example.testapp;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -31,6 +32,10 @@ public class LoginFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent myIntent = new Intent(getActivity(),
+                        HomeActivity.class);
+                startActivity(myIntent);
+
                 Toast.makeText(getActivity(), "Do the login here", Toast.LENGTH_LONG).show();
             }
 
