@@ -1,4 +1,4 @@
-package com.example.testapp;
+package com.example.studentsystem;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;

@@ -1,4 +1,4 @@
-package com.example.testapp.ui.send;
+package com.example.studentsystem.ui.send;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
