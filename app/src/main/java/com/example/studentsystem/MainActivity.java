@@ -45,4 +45,5 @@ class AuthenticationPagerAdapter extends FragmentPagerAdapter {
     void addFragmet(Fragment fragment) {
         fragmentList.add(fragment);
     }
+
 }

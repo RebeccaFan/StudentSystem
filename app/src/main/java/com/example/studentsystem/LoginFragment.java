@@ -49,10 +49,10 @@ public class LoginFragment extends Fragment {
 
                 // https://firebase.google.com/docs/auth/android/microsoft-oauth#before_you_begin
 
-                FirebaseAuth.getInstance().signOut();
+                //FirebaseAuth.getInstance().signOut();
                 OAuthProvider.Builder provider = OAuthProvider.newBuilder("microsoft.com");
                 // Force re-consent.
-                provider.addCustomParameter("prompt", "consent");
+                provider.addCustomParameter("prompt", "select_account");
 
 
                 List<String> scopes =
