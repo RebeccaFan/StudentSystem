@@ -1,4 +1,4 @@
-package com.example.studentsystem.ui.tools;
+package com.example.studentsystem.ui.signout;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

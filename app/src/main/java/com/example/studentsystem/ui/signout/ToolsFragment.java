@@ -1,4 +1,4 @@
-package com.example.studentsystem.ui.tools;
+package com.example.studentsystem.ui.signout;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +14,6 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.example.studentsystem.HomeActivity;
 import com.example.studentsystem.MainActivity;
 import com.example.studentsystem.R;
 import com.google.firebase.auth.FirebaseAuth;
