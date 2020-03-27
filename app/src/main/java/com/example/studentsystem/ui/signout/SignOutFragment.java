@@ -18,18 +18,18 @@ import com.example.studentsystem.MainActivity;
 import com.example.studentsystem.R;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class ToolsFragment extends Fragment {
+public class SignOutFragment extends Fragment {
 
 
-    private ToolsViewModel toolsViewModel;
+    private SignOutViewModel signOutViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        toolsViewModel =
-                ViewModelProviders.of(this).get(ToolsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_tools, container, false);
+        signOutViewModel =
+                ViewModelProviders.of(this).get(SignOutViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_signout, container, false);
         final TextView textView = root.findViewById(R.id.text_tools);
-        toolsViewModel.getText().observe(this, new Observer<String>() {
+        signOutViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

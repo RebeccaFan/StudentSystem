@@ -9,15 +9,15 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_sleeptracker"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Sleep Tracker" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_contact"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="About" />
+            android:title="Contact" />
         <item
-            android:id="@+id/nav_tools"
+            android:id="@+id/nav_signout"
             android:icon="@drawable/ic_menu_manage"
             android:title="Sign Out" />
     </group>
