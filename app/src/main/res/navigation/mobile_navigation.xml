@@ -14,19 +14,19 @@
     <fragment
         android:id="@+id/nav_sleeptracker"
         android:name="com.example.studentsystem.ui.sleeptracker.SleepTrackerFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_sleeptracker"
         tools:layout="@layout/fragment_sleeptracker" />
 
     <fragment
         android:id="@+id/nav_contact"
         android:name="com.example.studentsystem.ui.contact.ContactFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_contact"
         tools:layout="@layout/fragment_contact" />
 
     <fragment
         android:id="@+id/nav_signout"
         android:name="com.example.studentsystem.ui.signout.SignOutFragment"
-        android:label="@string/menu_tools"
+        android:label="@string/menu_signout"
         tools:layout="@layout/fragment_signout" />
 
 <!--    <fragment
