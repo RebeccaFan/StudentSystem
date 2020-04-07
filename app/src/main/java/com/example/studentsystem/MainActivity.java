@@ -1,4 +1,4 @@
-package com.example.testapp;
+package com.example.studentsystem;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
         AuthenticationPagerAdapter pagerAdapter = new AuthenticationPagerAdapter(getSupportFragmentManager());
         pagerAdapter.addFragmet(new LoginFragment());
-        pagerAdapter.addFragmet(new RegisterFragment());
         viewPager.setAdapter(pagerAdapter);
     }
 }
@@ -45,4 +44,5 @@ class AuthenticationPagerAdapter extends FragmentPagerAdapter {
     void addFragmet(Fragment fragment) {
         fragmentList.add(fragment);
     }
+
 }

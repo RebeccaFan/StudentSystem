@@ -1,16 +1,16 @@
-package com.example.testapp.ui.send;
+package com.example.studentsystem.ui.contact;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SendViewModel extends ViewModel {
+public class ContactViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public SendViewModel() {
+    public ContactViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is send fragment");
+        mText.setValue("This is the contact info of the developers of this app");
     }
 
     public LiveData<String> getText() {

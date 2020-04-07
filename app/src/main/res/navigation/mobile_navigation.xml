@@ -7,37 +7,37 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.testapp.ui.home.HomeFragment"
+        android:name="com.example.studentsystem.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.testapp.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_sleeptracker"
+        android:name="com.example.studentsystem.ui.sleeptracker.SleepTrackerFragment"
+        android:label="@string/menu_sleeptracker"
+        tools:layout="@layout/fragment_sleeptracker" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.testapp.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_contact"
+        android:name="com.example.studentsystem.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.example.testapp.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/nav_signout"
+        android:name="com.example.studentsystem.ui.signout.SignOutFragment"
+        android:label="@string/menu_signout"
+        tools:layout="@layout/fragment_signout" />
 
-    <fragment
+<!--    <fragment
         android:id="@+id/nav_share"
-        android:name="com.example.testapp.ui.share.ShareFragment"
+        android:name="com.example.studentsystem.ui.share.ShareFragment"
         android:label="@string/menu_share"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_send"
-        android:name="com.example.testapp.ui.send.SendFragment"
+        android:name="com.example.studentsystem.ui.send.SendFragment"
         android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        tools:layout="@layout/fragment_send" />-->
 </navigation>
