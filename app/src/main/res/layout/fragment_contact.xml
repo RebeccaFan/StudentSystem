@@ -24,7 +24,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="3">
+        android:weightSum="3"
+        android:paddingBottom="40dp">
+
 
         <LinearLayout
             android:layout_width="0dp"
@@ -49,7 +51,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
-            android:gravity="center"
+            android:gravity="left"
             android:orientation="vertical">
     <TextView
         android:id="@+id/name_rf"
@@ -98,23 +100,23 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"
-            android:gravity="center"
+            android:gravity="left"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/name_ve"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
                 android:layout_marginTop="8dp"
-                android:text="Vivien Enriquez" />
+                android:text="Vivien Enriquez"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/me_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
                 android:text="Email: C17337916@mytudublin.ie"
-                />
+                android:textSize="20sp" />
 
         </LinearLayout>
     </LinearLayout>
