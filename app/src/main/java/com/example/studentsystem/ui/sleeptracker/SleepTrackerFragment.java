@@ -29,11 +29,9 @@ public class SleepTrackerFragment extends Fragment {
         sleepTrackerViewModel =
                 ViewModelProviders.of(this).get(SleepTrackerViewModel.class);
         View root = inflater.inflate(R.layout.fragment_sleeptracker, container, false);
-//        final TextView textView = root.findViewById(R.id.text_sleeptracker);
         sleepTrackerViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-//                textView.setText(s);
             }
         });
 
@@ -47,7 +45,6 @@ public class SleepTrackerFragment extends Fragment {
                 startChronometer(v);
             }
         });
-
         Button chronoEnd= root.findViewById(R.id.chronoEnd);
         chronoEnd.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -103,14 +103,6 @@ public class LoginFragment extends Fragment {
                                     new OnSuccessListener<AuthResult>() {
                                         @Override
                                         public void onSuccess(AuthResult authResult) {
-                                            // User is signed in.
-                                            // IdP data available in
-                                            // authResult.getAdditionalUserInfo().getProfile().
-                                            // The OAuth access token can also be retrieved:
-                                            // authResult.getCredential().getAccessToken().
-                                            // The OAuth ID token can also be retrieved:
-                                            // authResult.getCredential().getIdToken().
-
                                             Toast.makeText(getActivity(), "Hi " + authResult.getUser().getDisplayName() + " \nSuccessfully logged in with microsoft !!", Toast.LENGTH_LONG).show();
                                             Intent myIntent = new Intent(getActivity(),
                                                     HomeActivity.class);
